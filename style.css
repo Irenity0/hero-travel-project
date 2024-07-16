@@ -27,10 +27,26 @@ body {
     font-family: "Mulish", sans-serif;
 }
 
-.container {
+.section, 
+section {
     width: 90%;
     margin: 5rem auto;
     border-radius: 1rem;
+}
+
+.demo-border {
+    border: 2px solid red;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 84, 0);
+    padding: 14px 35px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
 }
 
 /* Navbar styles */
@@ -73,3 +89,56 @@ body {
 }
 
 /* Banner styles */
+
+.banner-section {
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 500px;
+    background: linear-gradient(rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)), url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+            
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+    margin: 24px 40px;
+}
+
+.banner-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 65px;
+    margin-bottom: 50px;
+    width: 676px;
+    height: 52px;
+}
+
+.input-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    justify-content: space-around;
+    padding: 16px;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+.input-style {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 16px 60px 16px 16px;
+    border: none;
+}
